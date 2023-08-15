@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Digian</title>
+  <title>Sobre Nos - Solucion</title>
 
 
   <!-- bootstrap core css -->
@@ -36,9 +36,7 @@
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
-            <span>
-              Digian
-            </span>
+            <img src="images/logo_verde.png" alt="Logo" srcset="">
           </a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,17 +45,17 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ">
-              <li class="nav-item ">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="service.html">Services</a>
+                <a class="nav-link" href="index.php">Inicio</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link" href="about.php"> Sobre Nos <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.php">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.php">Contatos</a>
               </li>
             </ul>
             <div class="quote_btn-container">
@@ -72,51 +70,48 @@
     <!-- end header section -->
   </div>
 
-  <!-- contact section -->
+  <!-- about section -->
 
-  <section class="contact_section layout_padding">
-    <div class="container-fluid">
+  <section class="about_section layout_padding layout_margin">
+  <div class="container  ">
       <div class="row">
-        <div class="col-md-5 col-lg-4 offset-md-1">
-          <div class="form_container">
+        <div class="col-md-6">
+          <div class="detail-box">
             <div class="heading_container">
               <h2>
-                Request A Call back
+                Sobre Nos
               </h2>
             </div>
-            <form action="">
-              <div>
-                <input type="text" placeholder="Full Name " />
-              </div>
-              <div>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div>
-                <input type="text" placeholder="Phone number" />
-              </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Message" />
-              </div>
-              <div class="d-flex ">
-                <button>
-                  SEND
-                </button>
-              </div>
-            </form>
+            <p>
+              🚀 Bem-vindos à Solucion! Somos um casal apaixonado por transformar ideias em realidade digital. Com formação em Licenciatura em Informática, dedicamo-nos a levar a excelência tecnológica às pequenas empresas e empreendimentos.
+            </p>
+            <p>
+              🌐 Criação de Páginas Web, Aplicações e Bases de Dados eficientes: Da presença online ao gerenciamento de dados, estamos aqui para construir soluções sob medida, combinando design e funcionalidade.
+            </p>
+            <p>
+            💌 Convites Personalizados e Currículos Profissionais: Transformamos ocasiões especiais com convites únicos e realçamos habilidades profissionais com currículos impactantes.
+            </p>
+            <p>
+            🌟 Ideias Elevadas, Soluções Práticas: Combinamos a paixão pela tecnologia com experiência académica para criar soluções inovadoras. Somos parceiros comprometidos, da conceção à entrega.
+            </p>
+            <p>
+            Junte-se a nós na jornada de transformação digital. Vamos criar o futuro juntos!
+            </p>
+            
+            <a href="">
+              Saber mais
+            </a>
           </div>
         </div>
-        <div class="col-md-6 col-lg-7 px-0">
-          <div class="map_container">
-            <div class="map">
-              <div id="googleMap"></div>
-            </div>
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="images/about-img.png" alt="">
           </div>
         </div>
+
       </div>
     </div>
   </section>
-
-  <!-- end contact section -->
 
   <div class="footer_container">
     <!-- info section -->
@@ -127,7 +122,7 @@
           <div class="col-md-6 col-lg-3 ">
             <div class="info_detail">
               <h4>
-                Digian
+                Solucion
               </h4>
               <p>
                 Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
@@ -140,17 +135,17 @@
                 Links
               </h4>
               <div class="info_links">
-                <a class="" href="index.html">
-                  Home
+                <a class="" href="index.php">
+                  Inicio
                 </a>
-                <a class="" href="about.html">
-                  About
+                <a class="" href="about.php">
+                  Sobre Nos
                 </a>
-                <a class="" href="service.html">
-                  Services
+                <a class="" href="service.php">
+                  Serviços
                 </a>
-                <a class="" href="contact.html">
-                  Contact Us
+                <a class="" href="contact.php">
+                  Contatos
                 </a>
               </div>
             </div>
@@ -169,25 +164,25 @@
           <div class="col-md-6 col-lg-3 mb-0 ml-auto">
             <div class="info_contact">
               <h4>
-                Address
+                Encontre-nos
               </h4>
               <div class="contact_link_box">
                 <a href="">
                   <i class="fa fa-map-marker" aria-hidden="true"></i>
                   <span>
-                    Location
+                    Rua x
                   </span>
                 </a>
                 <a href="">
                   <i class="fa fa-phone" aria-hidden="true"></i>
                   <span>
-                    Call +01 1234567890
+                    +351 1234567890
                   </span>
                 </a>
                 <a href="">
                   <i class="fa fa-envelope" aria-hidden="true"></i>
                   <span>
-                    demo@gmail.com
+                    solucion.apoio@gmail.com
                   </span>
                 </a>
               </div>
@@ -202,7 +197,7 @@
               <a href="">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/solucion.apoio/">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
               </a>
             </div>
@@ -217,8 +212,7 @@
     <footer class="footer_section">
       <div class="container">
         <p>
-          &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="https://html.design/">Free Html Templates</a>
+         <span id="displayYear"></span>  &copy; Solucion Apoio
         </p>
       </div>
     </footer>

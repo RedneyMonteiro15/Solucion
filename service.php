@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Digian</title>
+  <title>Serviços - Solucion</title>
 
 
   <!-- bootstrap core css -->
@@ -34,11 +34,9 @@
     <!-- header section strats -->
     <header class="header_section">
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
+      <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
-            <span>
-              Digian
-            </span>
+          <img src="images/logo_verde.png" alt="Logo" srcset="">
           </a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,17 +45,17 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ">
-              <li class="nav-item ">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
+                <a class="nav-link" href="about.php"> Sobre Nos</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="service.html">Services</a>
+                <a class="nav-link" href="service.php">Serviços <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link" href="contact.php">Contatos</a>
               </li>
             </ul>
             <div class="quote_btn-container">
@@ -77,7 +75,7 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          Our Services
+          Nossos serviços
         </h2>
         <p>
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -87,18 +85,18 @@
         <div class="col-md-6 col-lg-3">
           <div class="box">
             <div class="img-box">
-              <img src="images/s1.png" alt="">
+              <img src="images/websites.png" alt="">
             </div>
             <div class="detail-box">
               <h5>
-                Link Building
+                Websites
               </h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               </p>
               <a href="">
                 <span>
-                  Read More
+                  Saber mais
                 </span>
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
               </a>
@@ -108,18 +106,18 @@
         <div class="col-md-6 col-lg-3">
           <div class="box">
             <div class="img-box">
-              <img src="images/s2.png" alt="">
+              <img src="images/base_dados.png" alt="">
             </div>
             <div class="detail-box">
               <h5>
-                On page SEO
+                Base de dados
               </h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               </p>
               <a href="">
                 <span>
-                  Read More
+                  Saber mais
                 </span>
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
               </a>
@@ -129,18 +127,18 @@
         <div class="col-md-6 col-lg-3">
           <div class="box">
             <div class="img-box">
-              <img src="images/s3.png" alt="">
+              <img src="images/aplicacao.png" alt="">
             </div>
             <div class="detail-box">
               <h5>
-                Online Marketing
+                Aplicações
               </h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               </p>
               <a href="">
                 <span>
-                  Read More
+                  Saber mais
                 </span>
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
               </a>
@@ -154,14 +152,14 @@
             </div>
             <div class="detail-box">
               <h5>
-                Email Marketing
+                Outros
               </h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               </p>
               <a href="">
                 <span>
-                  Read More
+                  Saber mais
                 </span>
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
               </a>
@@ -188,7 +186,7 @@
           <div class="col-md-6 col-lg-3 ">
             <div class="info_detail">
               <h4>
-                Digian
+                Solucion
               </h4>
               <p>
                 Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
@@ -201,17 +199,17 @@
                 Links
               </h4>
               <div class="info_links">
-                <a class="" href="index.html">
-                  Home
+                <a class="" href="index.php">
+                  Inicio
                 </a>
-                <a class="" href="about.html">
-                  About
+                <a class="" href="about.php">
+                  Sobre Nos
                 </a>
-                <a class="" href="service.html">
-                  Services
+                <a class="" href="service.php">
+                  Serviços
                 </a>
-                <a class="" href="contact.html">
-                  Contact Us
+                <a class="" href="contact.php">
+                  Contatos
                 </a>
               </div>
             </div>
@@ -230,25 +228,25 @@
           <div class="col-md-6 col-lg-3 mb-0 ml-auto">
             <div class="info_contact">
               <h4>
-                Address
+                Encontre-nos
               </h4>
               <div class="contact_link_box">
                 <a href="">
                   <i class="fa fa-map-marker" aria-hidden="true"></i>
                   <span>
-                    Location
+                    Rua x
                   </span>
                 </a>
                 <a href="">
                   <i class="fa fa-phone" aria-hidden="true"></i>
                   <span>
-                    Call +01 1234567890
+                    +351 1234567890
                   </span>
                 </a>
                 <a href="">
                   <i class="fa fa-envelope" aria-hidden="true"></i>
                   <span>
-                    demo@gmail.com
+                    solucion.apoio@gmail.com
                   </span>
                 </a>
               </div>
@@ -263,7 +261,7 @@
               <a href="">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/solucion.apoio/">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
               </a>
             </div>
@@ -278,8 +276,7 @@
     <footer class="footer_section">
       <div class="container">
         <p>
-          &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="https://html.design/">Free Html Templates</a>
+         <span id="displayYear"></span>  &copy; Solucion Apoio
         </p>
       </div>
     </footer>
