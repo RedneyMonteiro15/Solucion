@@ -12,19 +12,21 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Contatos - Solucion</title>
+  <title>Sobre Nos - Solucion</title>
 
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<!-- bootstrap core css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-  <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
+<!-- font awesome style -->
+<link href="css/font-awesome.min.css" rel="stylesheet" />
 
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+<!-- Custom styles for this template -->
+<link href="css/style.css" rel="stylesheet" />
+<!-- responsive style -->
+<link href="css/responsive.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
 </head>
 
@@ -34,87 +36,86 @@
     <!-- header section strats -->
     <header class="header_section">
       <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.php">
           <img src="images/logo_verde.png" alt="Logo" srcset="">
           </a>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class=""> </span>
-          </button>
+          
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Inicio</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html"> Sobre Nos <span class="sr-only">(current)s</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="service.html">Serviços</a>
-              </li>
               <li class="nav-item active">
-                <a class="nav-link" href="contact.html">Contatos</a>
+                <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.php"> Sobre Nos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.php">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.php">Contatos</a>
               </li>
             </ul>
-            <div class="quote_btn-container">
-              <a href="" class="quote_btn">
-                Get A Quote
-              </a>
-            </div>
+            
           </div>
+          <div >
+            <a href="auth/login.php">
+              <i class="bi bi-person custom-icon-size" size="15px"></i>
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
         </nav>
       </div>
     </header>
     <!-- end header section -->
   </div>
 
-  <!-- contact section -->
+  <!-- about section -->
 
-  <section class="contact_section layout_padding">
-    <div class="container-fluid">
+  <section class="about_section layout_padding layout_margin">
+    <div class="container  ">
       <div class="row">
-        <div class="col-md-5 col-lg-4 offset-md-1">
-          <div class="form_container">
+        <div class="col-md-6">
+          <div class="detail-box">
             <div class="heading_container">
               <h2>
-                Ser contatado por nos
+                Sobre Nos
               </h2>
             </div>
-            <form action="">
-              <div>
-                <input type="text" placeholder="Nome" />
-              </div>
-              <div>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div>
-                <input type="text" placeholder="Numero telemovel" />
-              </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Mensagem" />
-              </div>
-              <div class="d-flex ">
-                <button>
-                  Enviar
-                </button>
-              </div>
-            </form>
+            <p>
+              🚀 Bem-vindos à Solucion! Somos um casal apaixonado por transformar ideias em realidade digital. Com formação em Licenciatura em Informática, dedicamo-nos a levar a excelência tecnológica às pequenas empresas e empreendimentos.
+            </p>
+            <p>
+              🌐 Criação de Páginas Web, Aplicações e Bases de Dados eficientes: Da presença online ao gerenciamento de dados, estamos aqui para construir soluções sob medida, combinando design e funcionalidade.
+            </p>
+            <p>
+            💌 Convites Personalizados e Currículos Profissionais: Transformamos ocasiões especiais com convites únicos e realçamos habilidades profissionais com currículos impactantes.
+            </p>
+            <p>
+            🌟 Ideias Elevadas, Soluções Práticas: Combinamos a paixão pela tecnologia com experiência académica para criar soluções inovadoras. Somos parceiros comprometidos, da conceção à entrega.
+            </p>
+            <p>
+            Junte-se a nós na jornada de transformação digital. Vamos criar o futuro juntos!
+            </p>
+            
+            <a href="">
+              Saber mais
+            </a>
           </div>
         </div>
-        <div class="col-md-6 col-lg-7 px-0">
-          <div class="map_container">
-            <div class="map">
-              <div id="googleMap"></div>
-            </div>
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="images/about-img.png" alt="">
           </div>
         </div>
+
       </div>
     </div>
   </section>
-
-  <!-- end contact section -->
 
   <div class="footer_container">
     <!-- info section -->
@@ -138,16 +139,16 @@
                 Links
               </h4>
               <div class="info_links">
-                <a class="" href="index.html">
+                <a class="" href="index.php">
                   Inicio
                 </a>
-                <a class="" href="about.html">
+                <a class="" href="about.php">
                   Sobre Nos
                 </a>
-                <a class="" href="service.html">
+                <a class="" href="service.php">
                   Serviços
                 </a>
-                <a class="" href="contact.html">
+                <a class="" href="contact.php">
                   Contatos
                 </a>
               </div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
   <!-- Basic -->
@@ -26,47 +26,55 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
 </head>
 
 <body class="sub_page">
 
   <div class="hero_area">
     <!-- header section strats -->
+    <div class="hero_area">
+      <!-- header section strats -->
     <header class="header_section">
       <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.php">
           <img src="images/logo_verde.png" alt="Logo" srcset="">
           </a>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class=""> </span>
-          </button>
+          
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html"> Sobre Nos</a>
-              </li>
               <li class="nav-item active">
-                <a class="nav-link" href="service.html">Serviços <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contatos</a>
+                <a class="nav-link" href="about.php"> Sobre Nos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.php">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.php">Contatos</a>
               </li>
             </ul>
-            <div class="quote_btn-container">
-              <a href="" class="quote_btn">
-                Get A Quote
-              </a>
-            </div>
+            
           </div>
+          <div >
+            <a href="auth/login.php">
+              <i class="bi bi-person custom-icon-size" size="15px"></i>
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
         </nav>
       </div>
     </header>
+    <!-- end header section -->
+  </div>
     <!-- end header section -->
   </div>
 
@@ -78,7 +86,7 @@
           Nossos serviços
         </h2>
         <p>
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Da visão à realidade digital, somos a ponte que transforma ideias em soluções tecnológicas personalizadas, impulsionando o sucesso dos nossos clientes.
         </p>
       </div>
       <div class="row">
@@ -92,14 +100,16 @@
                 Websites
               </h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              Transformamos ideias em experiências online envolventes, projetando websites que cativam e conectam.
               </p>
-              <a href="">
-                <span>
-                  Saber mais
-                </span>
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+              <div class="btn-box">
+                <a href="" style="color: #fff;">
+                  <span>
+                    Pedir orçamento
+                  </span>
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -113,14 +123,16 @@
                 Base de dados
               </h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              Gerenciamos informações com precisão e eficiência, transformando dados em insights estratégicos.
               </p>
-              <a href="">
-                <span>
-                  Saber mais
-                </span>
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+              <div class="btn-box">
+                <a href="" style="color: #fff;">
+                  <span>
+                    Pedir orçamento
+                  </span>
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -134,44 +146,67 @@
                 Aplicações
               </h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              Levamos a sua marca ao alcance das mãos, com aplicações móveis intuitivas e impactantes.
               </p>
-              <a href="">
-                <span>
-                  Saber mais
-                </span>
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+              <div class="btn-box">
+                <a href="" style="color: #fff;">
+                  <span>
+                    Pedir orçamento
+                  </span>
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-3">
           <div class="box">
             <div class="img-box">
-              <img src="images/s4.png" alt="">
+              <img src="images/cv.png" alt="">
             </div>
             <div class="detail-box">
               <h5>
-                Outros
+              Currículos 
               </h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              Deixe-nos destacar suas habilidades e experiências de maneira profissional e impactante, ajudando você a se destacar.
               </p>
-              <a href="">
-                <span>
-                  Saber mais
-                </span>
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+              <div class="btn-box">
+                <a href="" style="color: #fff;">
+                  <span>
+                    Pedir orçamento
+                  </span>
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/invitation.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+              Convites Personalizados
+              </h5>
+              <p>
+              para Momentos Especiais: Quer tornar seus eventos memoráveis desde o primeiro convite? Nós também somos especialistas em criar convites únicos para casamentos, aniversários e chás revelação, trazendo um toque personalizado e encantador para cada ocasião.
+              </p>
+              <div class="btn-box">
+                <a href="" style="color: #fff;">
+                  <span>
+                    Pedir orçamento
+                  </span>
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="btn-box">
-        <a href="">
-          View More
-        </a>
-      </div>
+      
     </div>
   </section>
   <!-- end service section -->
@@ -199,16 +234,16 @@
                 Links
               </h4>
               <div class="info_links">
-                <a class="" href="index.html">
+                <a class="" href="index.php">
                   Inicio
                 </a>
-                <a class="" href="about.html">
+                <a class="" href="about.php">
                   Sobre Nos
                 </a>
-                <a class="" href="service.html">
+                <a class="" href="service.php">
                   Serviços
                 </a>
-                <a class="" href="contact.html">
+                <a class="" href="contact.php">
                   Contatos
                 </a>
               </div>

@@ -28,6 +28,8 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
 </head>
 
 <body>
@@ -37,35 +39,37 @@
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
           <img src="images/logo_verde.png" alt="Logo" srcset="">
           </a>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class=""> </span>
-          </button>
+          
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> Sobre Nos</a>
+                <a class="nav-link" href="about.php"> Sobre Nos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="service.html">Serviços</a>
+                <a class="nav-link" href="service.php">Serviços</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contatos</a>
+                <a class="nav-link" href="contact.php">Contatos</a>
               </li>
             </ul>
-            <div class="quote_btn-container">
-              <a href="" class="quote_btn">
-                Get A Quote
-              </a>
-            </div>
+            
           </div>
+          <div >
+            <a href="auth/login.php">
+              <i class="bi bi-person custom-icon-size" size="15px"></i>
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
         </nav>
       </div>
     </header>
@@ -198,7 +202,7 @@
           Nossos serviços
         </h2>
         <p>
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Da visão à realidade digital, somos a ponte que transforma ideias em soluções tecnológicas personalizadas, impulsionando o sucesso dos nossos clientes.
         </p>
       </div>
       <div class="row">
@@ -212,7 +216,7 @@
                 Websites
               </h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              Transformamos ideias em experiências online envolventes, projetando websites que cativam e conectam.
               </p>
               <a href="">
                 <span>
@@ -233,7 +237,7 @@
                 Base de dados
               </h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              Gerenciamos informações com precisão e eficiência, transformando dados em insights estratégicos.
               </p>
               <a href="">
                 <span>
@@ -254,7 +258,7 @@
                 Aplicações
               </h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              Levamos a sua marca ao alcance das mãos, com aplicações móveis intuitivas e impactantes.
               </p>
               <a href="">
                 <span>
@@ -275,7 +279,7 @@
                 Outros
               </h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                comvites personalizaos para momentos especiais, currículos profissionais, etc
               </p>
               <a href="">
                 <span>
@@ -289,7 +293,7 @@
       </div>
       <div class="btn-box">
         <a href="">
-          View More
+          Saber mais
         </a>
       </div>
     </div>
@@ -595,16 +599,16 @@
                 Links
               </h4>
               <div class="info_links">
-                <a class="" href="index.html">
+                <a class="" href="index.php">
                   Inicio
                 </a>
-                <a class="" href="about.html">
+                <a class="" href="about.php">
                   Sobre Nos
                 </a>
-                <a class="" href="service.html">
+                <a class="" href="service.php">
                   Serviços
                 </a>
-                <a class="" href="contact.html">
+                <a class="" href="contact.php">
                   Contatos
                 </a>
               </div>

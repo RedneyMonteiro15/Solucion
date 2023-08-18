@@ -870,3 +870,8 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+/* Define o tamanho personalizado para o ícone */
+.custom-icon-size {
+  font-size: 45px; /* Defina o tamanho desejado aqui */
+}
+
